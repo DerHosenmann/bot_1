@@ -65,7 +65,7 @@ def bot_print(msg):
 
 def get_last_info():
     try:
-        url = "https://raw.githubusercontent.com/yuceltoluyag/Rise-of-Kingdoms-Bot/main/docs/version.json"
+        url = "https://raw.githubusercontent.com/username/Zenith-Chimera-Bot/main/docs/version.json"
         resp_text = requests.get(url).text
         return json.loads(resp_text)
     except Exception as e:

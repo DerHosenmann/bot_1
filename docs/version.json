@@ -3,14 +3,14 @@
   "shouldUpdateInfo": true,
   "label": {
     "update": true,
-    "text": "Welcome to use Rise of Kingdoms Bot, check update on",
+    "text": "Welcome to use Zenith Chimera Bot, check update on",
     "row": 0,
     "column": 0
   },
   "link": {
     "update": true,
     "text": "GitHub",
-    "url": "https://github.com/yuceltoluyag/Rise-of-Kingdoms-Bot",
+    "url": "https://example.com/ZenithChimeraBot",
     "row": 0,
     "column": 1
   }

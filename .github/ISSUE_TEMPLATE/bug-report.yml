@@ -2,14 +2,13 @@ name: "🐞 Bug Report"
 title: "[BUG]: (A short description of the bug...)"
 description: "Report a bug"
 labels: [bug, needs-triage]
-assignees:
-  - yuceltoluyag
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
         #### Note:
-        Before reporting a bug, see [Issues](https://github.com/yuceltoluyag/Rise-of-Kingdoms-Bot/issues) to check if an issue already exists for the bug you encountered.
+        Before reporting a bug, see [Issues](https://example.com/issues) to check if an issue already exists for the bug you encountered.
   - type: markdown
     attributes:
       value: |
