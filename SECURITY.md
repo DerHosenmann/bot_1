@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-The following table outlines the versions of the Rise of Kingdoms Bot project that are currently supported with security updates:
+The following table outlines the versions of the Zenith Chimera Bot project that are currently supported with security updates:
 
 | Version | Supported          |
 |---------|--------------------|
@@ -17,7 +17,7 @@ If you discover a security vulnerability in this project, please follow these st
    - Avoid creating public issues, pull requests, or sharing the vulnerability on public forums or platforms.
 
 2. **Contact the maintainers:**
-   - Send a detailed email to the project maintainer at [ytoluyag@gmail.com].
+   - Send a detailed email to the project maintainer at [your.email@example.com].
    - Include the following information:
      - A detailed description of the vulnerability.
      - Steps to reproduce the issue.
@@ -44,4 +44,4 @@ To protect your account and avoid potential risks, adhere to the following:
 
 ---
 
-If you have any questions about this security policy, please contact us at [ytoluyag@gmail.com].
+If you have any questions about this security policy, please contact us at [your.email@example.com].

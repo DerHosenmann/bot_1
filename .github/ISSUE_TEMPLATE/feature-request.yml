@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         #### Note:
-        To report a bug or security vulnerability, return to [Create an Issue](https://github.com/yuceltoluyag/Rise-of-Kingdoms-Bot/issues/).
+        To report a bug or security vulnerability, return to [Create an Issue](https://example.com/issues).
 
   - type: markdown
     attributes:

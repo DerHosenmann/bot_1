@@ -4,7 +4,7 @@ from utils import get_last_info
 from version import version
 import threading
 
-url = "https://github.com/yuceltoluyag/Rise-of-Kingdoms-Bot"
+url = "https://example.com/ZenithChimeraBot"
 
 
 class BottomFrame(Frame):
@@ -12,7 +12,7 @@ class BottomFrame(Frame):
         Frame.__init__(self, windows, kwargs)
         self.windows_size = [kwargs["width"], kwargs["height"]]
 
-        label = Label(self, text="Welcome to use Rise of Kingdoms Bot, see update on")
+        label = Label(self, text="Welcome to use Zenith Chimera Bot, see update on")
         link = Label(self, text="GitHub", fg="blue", cursor="hand2")
 
         def callback():
