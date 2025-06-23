@@ -12,7 +12,8 @@ pip install -r requirements.txt
 ```
 
 3. Install ADB (Android Debug Bridge). You can obtain it from the Android SDK Platform Tools.
-4. Ensure your Android emulator is running and has USB debugging enabled.
+4. If `adb.exe` is not installed at `C:\platform-tools\adb.exe`, edit `filepath/file_relative_paths.py` and update `ADB_EXE_PATH` to the full path of your `adb.exe`.
+5. Ensure your Android emulator is running and has USB debugging enabled.
 
 ## Usage
 

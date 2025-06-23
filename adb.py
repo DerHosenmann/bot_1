@@ -4,6 +4,7 @@ from utils import build_command
 from filepath.file_relative_paths import FilePaths
 import subprocess
 import traceback
+import os
 
 
 bridge = None
@@ -38,6 +39,10 @@ class Adb:
 
 
 def enable_adb(host="127.0.0.1", port=5037):
+    adb_path = resource_path(FilePaths.ADB_EXE_PATH.value)
+    if not os.path.isfile(adb_path):
+        raise RuntimeError(f"ADB executable not found: {adb_path}")
+
     adb = None
     try:
         adb = Adb(host, port)
@@ -53,10 +58,8 @@ def enable_adb(host="127.0.0.1", port=5037):
 
     except RuntimeError as err:
 
-        adb_path = resource_path(FilePaths.ADB_EXE_PATH.value)
-
         ret = subprocess.run(
-            build_command(adb_path, "-P", str(port), "kill-server", host),
+            build_command(adb_path, "-P", str(port), "kill-server"),
             shell=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
